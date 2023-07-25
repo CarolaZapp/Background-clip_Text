@@ -1,0 +1,33 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+body{
+  font-family: Orbitron;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height:100vh;
+  background: rgb(51,102,204);
+}
+
+.heading {
+  margin:5rem;
+  font-size: clamp(5rem,15vw,10rem);
+  padding: 2rem;
+  font-weight: 900;
+  background: url(./images/flower-meadow-gcdf9d8785_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
